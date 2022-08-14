@@ -1,0 +1,157 @@
+body {
+    text-align: center;
+    background: linear-gradient(#EFF54D, #00AC61)
+}
+
+h1 {
+    font-size: 5rem;
+    color: #000000;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+    color: #000000;
+    font-family: "Arvo", cursive;
+    text-shadow: 1px 0 #DA0463;
+    margin: 20px;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.bats {
+    background-image: url("images/bats.jpg");
+    background-repeat: no-repeat;
+}
+
+.cow {
+    background-image: url("images/cow.jpg");
+    background-repeat: no-repeat;
+}
+
+.Coyote {
+    background-image: url("images/Coyote.jpg");
+    background-repeat: no-repeat;
+}
+
+.dog {
+    background-image: url("images/dog.jpg");
+    background-repeat: no-repeat;
+}
+
+.Dolphin {
+    background-image: url("images/Dolphin.jpg");
+    background-repeat: no-repeat;
+}
+
+.Dove {
+    background-image: url("images/Dove.jpg");
+    background-repeat: no-repeat;
+}
+
+.Duck {
+    background-image: url("images/Duck.jpg");
+    background-repeat: no-repeat;
+}
+
+.elk {
+    background-image: url("images/elk.jpg");
+    background-repeat: no-repeat;
+}
+
+.Frog {
+    background-image: url("images/Frog.jpg");
+    background-repeat: no-repeat;
+}
+
+.guinea-pig {
+    background-image: url("images/guinea-pig.jpg");
+    background-repeat: no-repeat;
+}
+
+.horse {
+    background-image: url("images/horse.jpg");
+    background-repeat: no-repeat;
+}
+
+.owl {
+    background-image: url("images/owl.jpg");
+    background-repeat: no-repeat;
+}
+
+.pig {
+    background-image: url("images/Pig.jpg");
+    background-repeat: no-repeat;
+}
+
+.robin-bird {
+    background-image: url("images/robin-bird.jpg");
+    background-repeat: no-repeat;
+}
+
+.rooster {
+    background-image: url("images/rooster.jpg");
+    background-repeat: no-repeat;
+}
+
+.Seagull {
+    background-image: url("images/Seagull.jpg");
+    background-repeat: no-repeat;
+}
+
+.Sheep {
+    background-image: url("images/Sheep.jpg");
+    background-repeat: no-repeat;
+}
+
+.Squirrel {
+    background-image: url("images/Squirrel.jpg");
+    background-repeat: no-repeat;
+}
+
+.Tiger {
+    background-image: url("images/Tiger.jpg");
+    background-repeat: no-repeat;
+}
+
+.Turkey {
+    background-image: url("images/Turkey.jpg");
+    background-repeat: no-repeat;
+}
+
+.animal {
+    outline: none;
+    border: 8px solid #242B2E;
+    font-size: 0px;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.animal:hover {
+    box-shadow: 2px 3px 4px 2px white;
+    /* opacity: 0.5; */
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    .animal {
+        width: 140px;
+        height: 145px;
+        margin: 6px;
+    }
+}
